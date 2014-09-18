@@ -13,6 +13,12 @@ nav {
 }
 
 #site-nav {
-    display:table-cell;
-    text-align:center;
+    display:table;
+    table-layout:fixed;
+    width:100%;
+}
+
+#site-nav a {
+    display: table-cell;
+    text-align: center;
 }

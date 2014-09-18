@@ -1,5 +1,6 @@
 body {
     background-image: url('Background.png');
+    background-size: 100%;
     font-size: 15px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     align-self: center;

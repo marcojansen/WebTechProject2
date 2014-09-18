@@ -11,3 +11,8 @@ p {
 nav {
     text-align: center;
 }
+
+#site-nav {
+    display:table-cell;
+    text-align:center;
+}

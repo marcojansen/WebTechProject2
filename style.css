@@ -4,13 +4,6 @@ body {
     align-self: center;
 }
 
-p {
-}
-
-nav {
-    text-align: center;
-}
-
 #site-nav {
     display:table;
     table-layout:fixed;

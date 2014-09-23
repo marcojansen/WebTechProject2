@@ -28,8 +28,7 @@ body {
 }
 
 #lloret-image {
-   max-width: 90%;
-   max-height: 90%;
+    max-width: 98%;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -40,5 +39,12 @@ body {
     padding-bottom:5%;
     margin-left: 2.5%;
     margin-right: 2.5%;
-    max-width: 17.5%;
+    max-width: 19.5%;
+}
+
+p {
+    max-width: 98%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
 }

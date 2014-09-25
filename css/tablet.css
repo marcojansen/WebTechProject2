@@ -1,0 +1,42 @@
+#logo {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#site-nav {
+    width: 95%;
+    display: table;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    
+}
+
+#lloret-image0 {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.lloret-images {
+    padding-top: 5%;
+    padding-bottom:5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    max-width: 19%;
+}
+
+#site-nav a {
+    display: table-cell;
+    text-align: center;
+}
+
+#header {
+    height: 50px;
+    position: relative;
+}

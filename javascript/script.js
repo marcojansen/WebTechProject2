@@ -1,30 +1,39 @@
-var image1;
-var image2;
-var image3;
-var image4;
-var image0;
+var images = [];
+var bigImage;
+var imageIndex = 0;
+var timer;
 
 function onInit() {
-    imageInit()
+    imageInit();
+    timer = setInterval(function () {nextImage();}, 3000);
 }
 
 function imageInit() {
-    image0 = document.getElementById("lloret-image0")
-    image1 = document.getElementById("lloret-image1")
-    image2 = document.getElementById("lloret-image2")
-    image3 = document.getElementById("lloret-image3")
-    image4 = document.getElementById("lloret-image4")
-                                     
-    image1.onclick = function () {onImageClick(image1)};
-    image2.onclick = function () {onImageClick(image2)};
-    image3.onclick = function () {onImageClick(image3)};
-    image4.onclick = function () {onImageClick(image4)};
+    bigImage = document.getElementById("lloret-image0");
+    
+    for(i = 1; i < 5; i++ ){
+        images.push(document.getElementById("lloret-image" + i));
+    }        
+    images[0].onclick = function () {setImage(0);};
+    images[1].onclick = function () {setImage(1);};
+    images[2].onclick = function () {setImage(2);};
+    images[3].onclick = function () {setImage(3);};
+}
+
+function setImage(index){
+    bigImage.src = images[index].src;
+    clearInterval(timer);
+    timer = setInterval(function () {nextImage();}, 3000);
+}
+
+function nextImage() {
+    bigIm
+    bigIm
+    bigImage.src = images[imageIndex].src;
+    imageIndex = (imageIndex + 1) % images.length;
 }
 
 
-function onImageClick(changeImage) {
-    image0.src = changeImage.src;
-}
 
 
 

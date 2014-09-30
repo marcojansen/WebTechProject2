@@ -27,8 +27,6 @@ function setImage(index){
 }
 
 function nextImage() {
-    bigIm
-    bigIm
     bigImage.src = images[imageIndex].src;
     imageIndex = (imageIndex + 1) % images.length;
 }

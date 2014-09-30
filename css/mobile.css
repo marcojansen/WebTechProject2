@@ -35,10 +35,11 @@ body {
 }
 
 .lloret-images {
-    padding-top: 5%;
-    padding-bottom:5%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-left: 2%;
+    margin-right: 2%;
     max-width: 19%;
 }
 

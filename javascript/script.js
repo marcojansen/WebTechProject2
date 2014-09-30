@@ -1,8 +1,4 @@
-var image1;
-var image2;
-var image3;
-var image4;
-var image0;
+var image1, image2, image3, image4, image0;
 
 function onInit() {
     imageInit()

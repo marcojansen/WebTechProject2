@@ -1,0 +1,86 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#container {
+    width: 100%;
+}
+#site-nav {
+    width: 80%;
+    display: table;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #d3d3d3;
+}
+
+.nav-icon {
+    background-position: 50% 0;
+    background-size: 48px 32px;
+    background-repeat: no-repeat;
+}
+
+#ibiza {
+    background-image: url(/images/flag_ibiza.jpg);
+}
+
+#rimini {
+    background-image: url(/images/flag_italia.png);
+}
+
+#lloret-de-mar {
+    background-image: url(/images/flag_spain.jpg);
+}
+
+#sunny-beach {
+    background-image: url(/images/flag_bulgaria.png);
+}
+
+#kreta {
+    background-image: url(/images/flag_spain.jpg);
+}
+
+#lloret-image0 {
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 490px;
+    min-height: 380px;
+    float: left;
+}
+
+.lloret-images {
+    float: right;
+    max-width: 20%;
+    max-height: 10%;
+    padding-left: 5%;
+    padding-right: 12%;
+    padding-bottom: 2%;
+    
+}
+
+#site-nav a {
+    display: table-cell;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#header {
+    height: 110px;
+    position: relative;
+}
+
+h1 {
+    clear: both;
+}

@@ -17,12 +17,40 @@
     position: absolute;
     left: 100px;
     top: 0px;
-    
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #d3d3d3;
+}
+
+.nav-icon {
+    background-position: 50% 0;
+    background-size: 48px 32px;
+    background-repeat: no-repeat;
+}
+
+#ibiza {
+    background-image: url(/images/flag_ibiza.jpg);
+}
+
+#rimini {
+    background-image: url(/images/flag_italia.png);
+}
+
+#lloret-de-mar {
+    background-image: url(/images/flag_spain.jpg);
+}
+
+#sunny-beach {
+    background-image: url(/images/flag_bulgaria.png);
+}
+
+#kreta {
+    background-image: url(/images/flag_spain.jpg);
 }
 
 #lloret-image0 {
     max-width: 80%;
     max-height: 50%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -38,6 +66,7 @@
 #site-nav a {
     display: table-cell;
     text-align: center;
+    padding-top: 35px;
 }
 
 #header {

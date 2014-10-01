@@ -28,3 +28,16 @@ a {
     border : 2px solid;
 }
 
+#site-nav {
+    border-bottom: 1px dashed;
+    display: table;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+}
+#site-nav a {
+    display: table-cell;
+    text-align: center; 
+}
+

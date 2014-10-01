@@ -9,10 +9,10 @@ function onInit() {
 }
 
 function imageInit() {
-    bigImage = document.getElementById("lloret-image0");
+    bigImage = document.getElementById("largeImage");
     
     for(i = 1; i < 5; i++ ){
-        images.push(document.getElementById("lloret-image" + i));
+        images.push(document.getElementById("image" + i));
     }        
     images[0].onclick = function () {setImage(0);};
     images[1].onclick = function () {setImage(1);};

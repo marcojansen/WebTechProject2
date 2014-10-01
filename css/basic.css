@@ -5,6 +5,11 @@ body {
     background-size: cover;
 }
 
+#boekButton {
+    clear: both;
+    text-align: center;
+}
+
 a:hover{
     text-decoration: underline;
 }
@@ -18,12 +23,12 @@ a {
     color: black;
 }
 
-.lloret-images {
+.images{
     border-radius: 15px;
     border : 1px solid;
 }
 
-#lloret-image0 {
+#largeImage {
     border-radius: 15px;
     border : 2px solid;
 }
@@ -40,4 +45,3 @@ a {
     display: table-cell;
     text-align: center; 
 }
-

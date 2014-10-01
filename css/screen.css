@@ -46,7 +46,7 @@ body {
     background-image: url(/images/flag_spain.jpg);
 }
 
-#lloret-image0 {
+#largeImage {
     margin-bottom: 5%;
     max-width: 60%;
     max-height: 60%;
@@ -55,7 +55,7 @@ body {
     float: left;
 }
 
-.lloret-images {
+.images {
     float: right;
     max-width: 20%;
     max-height: 10%;

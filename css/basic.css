@@ -1,38 +1,36 @@
 body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     background-image: url(/images/background.png);
     background-size: cover;
 }
-
+footer {
+    margin-top: 10%;
+    clear: both;
+    text-align: center;
+}
 #boekButton {
     clear: both;
     text-align: center;
 }
-
-a:hover{
+a:hover {
     text-decoration: underline;
 }
-
-a:visited{
+a:visited {
     color: black;
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-
-.images{
+.images {
     border-radius: 15px;
-    border : 1px solid;
+    border: 1px solid;
 }
-
 #largeImage {
     border-radius: 15px;
-    border : 2px solid;
+    border: 2px solid;
 }
-
 #site-nav {
     border-bottom: 1px dashed;
     display: table;
@@ -43,5 +41,5 @@ a {
 }
 #site-nav a {
     display: table-cell;
-    text-align: center; 
+    text-align: center;
 }

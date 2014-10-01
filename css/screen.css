@@ -2,7 +2,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-
 #logo {
     height: 100px;
     width: 100px;
@@ -19,33 +18,26 @@ body {
     left: 100px;
     top: 0px;
 }
-
 .nav-icon {
     background-position: 50% 0;
     background-size: 48px 32px;
     background-repeat: no-repeat;
 }
-
 #ibiza {
     background-image: url(/images/flag_ibiza.jpg);
 }
-
 #rimini {
     background-image: url(/images/flag_italia.png);
 }
-
 #lloret-de-mar {
     background-image: url(/images/flag_spain.jpg);
 }
-
 #sunny-beach {
     background-image: url(/images/flag_bulgaria.png);
 }
-
 #kreta {
     background-image: url(/images/flag_spain.jpg);
 }
-
 #largeImage {
     margin-bottom: 5%;
     max-width: 60%;
@@ -54,25 +46,30 @@ body {
     min-height: 350px;
     float: left;
 }
-
 .images {
     float: right;
     max-width: 20%;
     max-height: 10%;
     margin-right: 15%;
     margin-bottom: 2%;
-    
 }
-
 #site-nav a {
     padding-top: 35px;
 }
-
 #header {
     height: 110px;
     position: relative;
 }
-
 h1 {
     clear: both;
+}
+#contactGegevens {
+    max-width: 40%;
+    margin-left: 10%;
+    float: left;
+}
+#emailForm {
+    max-width: 40%;
+    margin-right: 10%;
+    float: right;
 }

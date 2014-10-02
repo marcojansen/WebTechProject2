@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <title>Boeken</title>
     <link href="../css/boek.css" rel="stylesheet" type="text/css">
+    <script src="../javascript/script.js" type="text/javascript"></script>
 </head>
-<form>
+
+<body>
     <div id="container">
-        <form action="" method="post">
+        <form>
             <header>
                 <h2>Boek formulier</h2>
                 <p>Vul het formulier in om te boeken!</p>
             </header>
             <label>Naam</label>
-            <input name="name" placeholder="Marco Jansen" type="text" width="100px;" required>
+            <input name="name" placeholder="Marco Jansen" type="text" required>
             <label>Email</label>
             <input name="email" placeholder="jenaam@gmail.com" type="text" required>
             <label>Telefoonnummer</label>
             <input name="contact" placeholder="0631241233" type="text" required>
             <label>Bestemming</label>
             <select name="bestemmingen" required>
+                <option label="default"></option>
                 <option value="lloret">Lloret de mar</option>
                 <option value="ibiza">Ibiza</option>
                 <option value="rimini">Rimini</option>
@@ -36,18 +39,8 @@
             <input id="submit" type="submit" value="Boeken" onclick="boeken()">
         </form>
     </div>
-</form>
-<script>
-    function boeken() {
-        if (confirm("Zeker weten dat je wilt boeken?") == true) {
-            alert("Geboekt")
-        } else {
-            alert("Boeken geannuleerd")
-        }
-    }
-</script>
 
-<body>
+
 
 </body>
 

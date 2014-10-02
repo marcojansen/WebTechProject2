@@ -1,6 +1,6 @@
 var images = [];
 var bigImage;
-var imageIndex = 0;
+var imageIndex = 1;
 var timer;
 
 function onInit() {
@@ -13,7 +13,7 @@ function onInit() {
 function imageInit() {
     bigImage = document.getElementById("largeImage");
 
-    for (i = 1; i < 5; i++) {
+    for (var i = 1; i < 5; i++) {
         images.push(document.getElementById("image" + i));
     }
     images[0].onclick = function() {
@@ -41,4 +41,12 @@ function setImage(index) {
 function nextImage() {
     bigImage.src = images[imageIndex].src;
     imageIndex = (imageIndex + 1) % images.length;
+}
+
+function boeken() {
+    if (confirm("Zeker weten dat je wilt boeken?") == true) {
+        alert("Geboekt")
+    } else {
+        alert("Boeken geannuleerd")
+    }
 }

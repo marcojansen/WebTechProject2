@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <HTML>
 
 <head>
+    <meta charset="UTF-8">
     <title>Boeken</title>
     <link href="../css/boek.css" rel="stylesheet" type="text/css">
 </head>
@@ -12,26 +14,38 @@
                 <p>Vul het formulier in om te boeken!</p>
             </header>
             <label>Naam</label>
-            <input name="name" placeholder="Ashley Peterson" type="text" width="100px;">
+            <input name="name" placeholder="Marco Jansen" type="text" width="100px;" required>
             <label>Email</label>
-            <input name="email" placeholder="yourname@gmail.com" type="text">
+            <input name="email" placeholder="jenaam@gmail.com" type="text" required>
             <label>Telefoonnummer</label>
-            <input name="contact" placeholder="0631241233" type="text">
+            <input name="contact" placeholder="0631241233" type="text" required>
             <label>Bestemming</label>
-            <select name="bestemmingen">
+            <select name="bestemmingen" required>
                 <option value="lloret">Lloret de mar</option>
                 <option value="ibiza">Ibiza</option>
                 <option value="rimini">Rimini</option>
                 <option value="sunnybeach">Sunny Beach</option>
                 <option value="kreta">Kreta</option>
             </select>
+            <label>Van</label>
+            <input type="date" required>
+            <label>Tot</label>
+            <input type="date" required>
             <label>Opmerkingen</label>
-            <textarea cols="15" name="message" placeholder="Opmerking" rows="10">
-            </textarea>
-            <input id="submit" type="submit" value="Boeken">
+            <textarea cols="15" name="message" placeholder="Opmerkingen" rows="5"></textarea>
+            <input id="submit" type="submit" value="Boeken" onclick="boeken()">
         </form>
     </div>
 </form>
+<script>
+    function boeken() {
+        if (confirm("Zeker weten dat je wilt boeken?") == true) {
+            alert("Geboekt")
+        } else {
+            alert("Boeken geannuleerd")
+        }
+    }
+</script>
 
 <body>
 
